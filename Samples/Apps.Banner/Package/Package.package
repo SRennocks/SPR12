@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b3d1b963-61ca-4bc0-bfe0-5b20cfa135b4" solutionId="b3d1b963-61ca-4bc0-bfe0-5b20cfa135b4" resetWebServer="false" sharePointProductVersion="16.0" name="Apps.Banner" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e3b34c63-5f83-4898-a0a9-e96dfa06f8c1" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="c04ad14f-9199-43fd-a28f-05381a6f8c85" />
+  </projectItems>
+</package>

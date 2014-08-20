@@ -3,11 +3,11 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="AppsBanner"
      ProductID="{d8959768-a7db-4a91-85c8-25fb41750bc8}"
-     Version="1.0.0.0"
+     Version="1.0.0.2"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
-    <Title>Apps.Banner</Title>
+    <Title>Banner Rotator</Title>
     <StartPage>~appWebUrl/Pages/Default.aspx?BannerList=Banners&amp;{StandardTokens}</StartPage>
   </Properties>
 

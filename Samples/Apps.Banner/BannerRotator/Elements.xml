@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="BannerRotator" Title="Banner Rotator" Description="Banner Rotator" DefaultWidth="635" DefaultHeight="320">
+
+    <Content Type="html" Src="~appWebUrl/Pages/BannerRotator.aspx?&amp;BannerList=_BannerList_&amp;SlideTime=_SlideTime_&amp;TransitionType=_TransitionType_&amp;{StandardTokens}" />
+
+    <Properties>
+      <Property Name="BannerList" Type ="string" WebBrowsable ="true" WebDisplayName ="Banner List Title" WebCategory ="App Settings" DefaultValue="Banners" RequiresDesignerPermission ="true" />
+      <Property Name="SlideTime" Type="int" WebBrowsable="true" WebDisplayName ="Slide Change Time (sec)" WebCategory ="App Settings" DefaultValue="2" RequiresDesignerPermission ="true" />
+      <Property Name="TransitionType" Type="enum" WebBrowsable="true" WebDisplayName ="TransitionType" WebCategory ="App Settings" DefaultValue="6" RequiresDesignerPermission ="true" >
+        <EnumItems>
+          <EnumItem WebDisplayName ="blindX" Value="1"/>
+          <EnumItem WebDisplayName ="blindY" Value="2"/>
+          <EnumItem WebDisplayName ="blindZ" Value="3"/>
+          <EnumItem WebDisplayName ="cover" Value="4"/>
+          <EnumItem WebDisplayName ="curtainX" Value="5"/>
+          <EnumItem WebDisplayName ="curtainY" Value="6"/>
+          <EnumItem WebDisplayName ="fade" Value="7"/>
+          <EnumItem WebDisplayName ="fadeZoom" Value="8"/>
+          <EnumItem WebDisplayName ="growX" Value="9"/>
+          <EnumItem WebDisplayName ="growY" Value="10"/>
+          <EnumItem WebDisplayName ="none" Value="11"/>
+          <EnumItem WebDisplayName ="scrollUp" Value="12"/>
+          <EnumItem WebDisplayName ="scrollDown" Value="13"/>
+          <EnumItem WebDisplayName ="scrollLeft" Value="14"/>
+          <EnumItem WebDisplayName ="scrollRight" Value="15"/>
+          <EnumItem WebDisplayName ="scrollHorz" Value="16"/>
+          <EnumItem WebDisplayName ="scrollVert" Value="17"/>
+          <EnumItem WebDisplayName ="shuffle" Value="18"/>
+          <EnumItem WebDisplayName ="slideX" Value="19"/>
+          <EnumItem WebDisplayName ="slideY" Value="20"/>
+          <EnumItem WebDisplayName ="toss" Value="21"/>
+          <EnumItem WebDisplayName ="turnUp" Value="22"/>
+          <EnumItem WebDisplayName ="turnDown" Value="23"/>
+          <EnumItem WebDisplayName ="turnLeft" Value="24"/>
+          <EnumItem WebDisplayName ="turnRight" Value="25"/>
+          <EnumItem WebDisplayName ="uncover" Value="26"/>
+          <EnumItem WebDisplayName ="wipe" Value="27"/>
+          <EnumItem WebDisplayName ="zoom" Value="28"/>
+        </EnumItems>
+      </Property>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

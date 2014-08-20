@@ -43,25 +43,30 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="ClientWebPart\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{c04ad14f-9199-43fd-a28f-05381a6f8c85}</SharePointProjectItemId>
+    <None Include="BannerRotator\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d8baef15-8660-4992-acbb-ef95a292ae87}</SharePointProjectItemId>
     </None>
+    <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d8959768-a7db-4a91-85c8-25fb41750bc8}</SharePointProjectItemId>
     </None>
-    <Content Include="ClientWebPart\Elements.xml">
-      <SubType>Designer</SubType>
+    <Content Include="BannerRotator\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
-    <Content Include="Pages\ClientWebPart.aspx" />
+    <Content Include="Pages\BannerRotator.aspx" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f2bf2e0c-d1d3-4048-ab00-c5aa281616d4}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
